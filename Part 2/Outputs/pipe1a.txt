@@ -1,0 +1,227 @@
+thomas-c@thomasc-VirtualBox:~/Desktop/School Programs/Homework 1/Part 2$ ./pipe1a
+ps -auxw
+sh: 1: Cannot fork
+thomas-c@thomasc-VirtualBox:~/Desktop/School Programs/Homework 1/Part 2$ ps -auxw
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.1 167664  7956 ?        Rs   07:57   0:01 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    07:57   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   07:57   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   07:57   0:00 [rcu_par_gp]
+root           5  0.0  0.0      0     0 ?        I    07:57   0:00 [kworker/0:0-cgroup_destroy]
+root           6  0.0  0.0      0     0 ?        I<   07:57   0:00 [kworker/0:0H-events_highpri]
+root           9  0.0  0.0      0     0 ?        I<   07:57   0:00 [mm_percpu_wq]
+root          10  0.0  0.0      0     0 ?        S    07:57   0:00 [rcu_tasks_rude_]
+root          11  0.0  0.0      0     0 ?        S    07:57   0:00 [rcu_tasks_trace]
+root          12  0.0  0.0      0     0 ?        S    07:57   0:00 [ksoftirqd/0]
+root          13  0.0  0.0      0     0 ?        I    07:57   0:00 [rcu_sched]
+root          14  0.0  0.0      0     0 ?        S    07:57   0:00 [migration/0]
+root          15  0.0  0.0      0     0 ?        S    07:57   0:00 [idle_inject/0]
+root          16  0.0  0.0      0     0 ?        S    07:57   0:00 [cpuhp/0]
+root          17  0.0  0.0      0     0 ?        S    07:57   0:00 [kdevtmpfs]
+root          18  0.0  0.0      0     0 ?        I<   07:57   0:00 [netns]
+root          19  0.0  0.0      0     0 ?        I<   07:57   0:00 [inet_frag_wq]
+root          20  0.0  0.0      0     0 ?        S    07:57   0:00 [kauditd]
+root          21  0.0  0.0      0     0 ?        S    07:57   0:00 [khungtaskd]
+root          22  0.0  0.0      0     0 ?        S    07:57   0:00 [oom_reaper]
+root          23  0.0  0.0      0     0 ?        I<   07:57   0:00 [writeback]
+root          24  0.0  0.0      0     0 ?        S    07:57   0:00 [kcompactd0]
+root          25  0.0  0.0      0     0 ?        SN   07:57   0:00 [ksmd]
+root          26  0.0  0.0      0     0 ?        SN   07:57   0:00 [khugepaged]
+root          72  0.0  0.0      0     0 ?        I<   07:57   0:00 [kintegrityd]
+root          73  0.0  0.0      0     0 ?        I<   07:57   0:00 [kblockd]
+root          74  0.0  0.0      0     0 ?        I<   07:57   0:00 [blkcg_punt_bio]
+root          75  0.0  0.0      0     0 ?        I<   07:57   0:00 [tpm_dev_wq]
+root          76  0.0  0.0      0     0 ?        I<   07:57   0:00 [ata_sff]
+root          77  0.0  0.0      0     0 ?        I<   07:57   0:00 [md]
+root          78  0.0  0.0      0     0 ?        I<   07:57   0:00 [edac-poller]
+root          79  0.0  0.0      0     0 ?        I<   07:57   0:00 [devfreq_wq]
+root          80  0.0  0.0      0     0 ?        S    07:57   0:00 [watchdogd]
+root          81  0.0  0.0      0     0 ?        I    07:57   0:00 [kworker/u2:1-ext4-rsv-conversion]
+root          82  0.0  0.0      0     0 ?        I<   07:57   0:00 [kworker/0:1H-kblockd]
+root          84  0.2  0.0      0     0 ?        S    07:57   0:05 [kswapd0]
+root          85  0.0  0.0      0     0 ?        S    07:57   0:00 [ecryptfs-kthrea]
+root          87  0.0  0.0      0     0 ?        I<   07:57   0:00 [kthrotld]
+root          88  0.0  0.0      0     0 ?        I<   07:57   0:00 [acpi_thermal_pm]
+root          90  0.0  0.0      0     0 ?        S    07:57   0:00 [scsi_eh_0]
+root          91  0.0  0.0      0     0 ?        I<   07:57   0:00 [scsi_tmf_0]
+root          92  0.0  0.0      0     0 ?        S    07:57   0:00 [scsi_eh_1]
+root          93  0.0  0.0      0     0 ?        I<   07:57   0:00 [scsi_tmf_1]
+root          95  0.0  0.0      0     0 ?        I<   07:57   0:00 [vfio-irqfd-clea]
+root          96  0.0  0.0      0     0 ?        I<   07:57   0:00 [mld]
+root          97  0.0  0.0      0     0 ?        I<   07:57   0:00 [ipv6_addrconf]
+root         108  0.0  0.0      0     0 ?        I<   07:57   0:00 [kstrp]
+root         111  0.0  0.0      0     0 ?        I<   07:57   0:00 [zswap-shrink]
+root         112  0.0  0.0      0     0 ?        I<   07:57   0:00 [kworker/u3:0]
+root         117  0.0  0.0      0     0 ?        I<   07:57   0:00 [charger_manager]
+root         159  0.0  0.0      0     0 ?        S    07:57   0:00 [scsi_eh_2]
+root         162  0.0  0.0      0     0 ?        I<   07:57   0:00 [scsi_tmf_2]
+root         187  0.0  0.0      0     0 ?        S    07:57   0:00 [jbd2/sda5-8]
+root         188  0.0  0.0      0     0 ?        I<   07:57   0:00 [ext4-rsv-conver]
+root         232  0.0  0.2  53812  8552 ?        S<s  07:57   0:00 /lib/systemd/systemd-journald
+root         260  0.0  0.0      0     0 ?        I<   07:57   0:00 [ttm_swap]
+root         261  0.0  0.0      0     0 ?        S    07:57   0:00 [irq/18-vmwgfx]
+root         262  0.0  0.0      0     0 ?        S    07:57   0:00 [card0-crtc0]
+root         263  0.0  0.0      0     0 ?        S    07:57   0:00 [card0-crtc1]
+root         264  0.0  0.0      0     0 ?        S    07:57   0:00 [card0-crtc2]
+root         265  0.0  0.0      0     0 ?        S    07:57   0:00 [card0-crtc3]
+root         266  0.0  0.0      0     0 ?        S    07:57   0:00 [card0-crtc4]
+root         267  0.0  0.0      0     0 ?        S    07:57   0:00 [card0-crtc5]
+root         268  0.0  0.0      0     0 ?        S    07:57   0:00 [card0-crtc6]
+root         269  0.0  0.0      0     0 ?        S    07:57   0:00 [card0-crtc7]
+root         271  0.0  0.0      0     0 ?        S<   07:57   0:00 [loop0]
+root         272  0.0  0.0      0     0 ?        S<   07:57   0:00 [loop1]
+root         273  0.0  0.0      0     0 ?        S<   07:57   0:00 [loop2]
+root         274  0.0  0.0      0     0 ?        S<   07:57   0:00 [loop3]
+root         277  0.0  0.0      0     0 ?        S<   07:57   0:00 [loop4]
+root         278  0.0  0.0      0     0 ?        S<   07:57   0:00 [loop5]
+root         280  0.0  0.0      0     0 ?        S<   07:57   0:00 [loop6]
+root         282  0.0  0.0      0     0 ?        S<   07:57   0:00 [loop7]
+root         287  0.0  0.0      0     0 ?        S<   07:57   0:00 [loop8]
+root         289  0.0  0.0      0     0 ?        S<   07:57   0:00 [loop9]
+root         291  0.0  0.1  24236  5984 ?        Ss   07:57   0:00 /lib/systemd/systemd-udevd
+root         293  0.0  0.0      0     0 ?        S<   07:57   0:00 [loop10]
+root         296  0.0  0.0      0     0 ?        S<   07:57   0:00 [loop11]
+root         297  0.0  0.0      0     0 ?        S<   07:57   0:00 [loop12]
+root         298  0.0  0.0      0     0 ?        S<   07:57   0:00 [loop13]
+root         329  0.0  0.0      0     0 ?        I<   07:57   0:00 [iprt-VBoxWQueue]
+root         383  0.0  0.0      0     0 ?        I<   07:57   0:00 [cryptd]
+systemd+     526  0.0  0.1  24004  8020 ?        Ss   07:57   0:00 /lib/systemd/systemd-resolved
+systemd+     527  0.0  0.0  90552  2764 ?        Ssl  07:57   0:00 /lib/systemd/systemd-timesyncd
+root         564  0.0  0.1 250524  6204 ?        Ssl  07:57   0:00 /usr/lib/accountsservice/accounts-daemon
+root         565  0.0  0.0   2548   744 ?        Ss   07:57   0:00 /usr/sbin/acpid
+avahi        568  0.0  0.0   8532  2460 ?        Ss   07:57   0:00 avahi-daemon: running [thomasc-VirtualBox.local]
+root         569  0.0  0.0  18052  2116 ?        Ss   07:57   0:00 /usr/sbin/cron -f
+message+     571  0.0  0.1   9768  5252 ?        Ss   07:57   0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopid
+root         572  0.0  0.2 347520 10036 ?        Ssl  07:57   0:00 /usr/sbin/NetworkManager --no-daemon
+root         579  0.0  0.3  47964 13236 ?        Ss   07:57   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-trigg
+root         580  0.0  0.2 254132  9068 ?        Ssl  07:57   0:00 /usr/lib/policykit-1/polkitd --no-debug
+syslog       582  0.0  0.0 224356  3400 ?        Ssl  07:57   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         583  0.0  0.4 725716 18272 ?        Ssl  07:57   0:00 /usr/lib/snapd/snapd
+root         584  0.0  0.0 244352  3872 ?        Ssl  07:57   0:00 /usr/libexec/switcheroo-control
+root         585  0.0  0.1  16756  4624 ?        Ss   07:57   0:00 /lib/systemd/systemd-logind
+root         586  0.0  0.0  16304  2928 ?        Ss   07:57   0:00 /lib/systemd/systemd-machined
+root         587  0.0  0.2 395668  8448 ?        Ssl  07:57   0:00 /usr/lib/udisks2/udisksd
+root         589  0.0  0.0  13688  1920 ?        Ss   07:57   0:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+avahi        595  0.0  0.0   8352   268 ?        S    07:57   0:00 avahi-daemon: chroot helper
+root         666  0.0  0.1  37212  4832 ?        Ss   07:57   0:00 /usr/sbin/cupsd -l
+root         691  0.0  0.1 178528  6320 ?        Ssl  07:57   0:00 /usr/sbin/cups-browsed
+lp           693  0.0  0.0  15336  3608 ?        S    07:57   0:00 /usr/lib/cups/notifier/dbus dbus://
+lp           694  0.0  0.0  15336  3728 ?        S    07:57   0:00 /usr/lib/cups/notifier/dbus dbus://
+lp           695  0.0  0.0  15336  3836 ?        S    07:57   0:00 /usr/lib/cups/notifier/dbus dbus://
+root         711  0.0  0.1 240736  5428 ?        Ssl  07:57   0:00 /usr/sbin/ModemManager
+root         719  0.0  0.3 912516 14180 ?        Ssl  07:57   0:00 /usr/sbin/libvirtd
+root         722  0.0  0.3 126512 14548 ?        Ssl  07:57   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrad
+whoopsie     783  0.0  0.2 327280  8860 ?        Ssl  07:58   0:00 /usr/bin/whoopsie -f
+kernoops     788  0.0  0.0  11264   156 ?        Ss   07:58   0:00 /usr/sbin/kerneloops --test
+kernoops     790  0.0  0.0  11264   448 ?        Ss   07:58   0:00 /usr/sbin/kerneloops
+root         877  0.0  0.0   2496   584 ?        S    07:58   0:00 bpfilter_umh
+libvirt+     997  0.0  0.0   9248  1280 ?        S    07:58   0:00 /usr/sbin/dnsmasq --conf-file=/var/lib/libvirt/dnsmasq/default.co
+root         998  0.0  0.0   9220    68 ?        S    07:58   0:00 /usr/sbin/dnsmasq --conf-file=/var/lib/libvirt/dnsmasq/default.co
+root        1085  0.0  0.1 248248  5064 ?        Ssl  07:58   0:00 /usr/sbin/gdm3
+root        1093  0.0  0.0 304052  1648 ?        Sl   07:58   0:00 /usr/sbin/VBoxService --pidfile /var/run/vboxadd-service.sh
+root        1103  0.0  0.1 175588  4892 ?        Sl   07:58   0:00 gdm-session-worker [pam/gdm-autologin]
+thomas-c    1108  0.0  0.1  20900  6356 ?        Ss   07:58   0:00 /lib/systemd/systemd --user
+thomas-c    1109  0.0  0.0 103404  2184 ?        S    07:58   0:00 (sd-pam)
+thomas-c    1114  0.0  0.2 1941872 8232 ?        S<sl 07:58   0:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+thomas-c    1116  0.0  0.2 667728  8116 ?        SNsl 07:58   0:00 /usr/libexec/tracker-miner-fs
+thomas-c    1119  0.0  0.0 396284  3648 ?        SLl  07:58   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+thomas-c    1123  0.0  0.0 172652  3056 tty2     Ssl+ 07:58   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_
+thomas-c    1125  2.0  4.2 428048 171184 tty2    Sl+  07:58   0:42 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xaut
+rtkit       1126  0.0  0.0 152940  2272 ?        SNsl 07:58   0:00 /usr/libexec/rtkit-daemon
+thomas-c    1130  0.0  0.1  12240  4036 ?        Ss   07:58   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopi
+thomas-c    1134  0.0  0.0 248332  3788 ?        Ssl  07:58   0:00 /usr/libexec/gvfsd
+thomas-c    1139  0.0  0.1 382064  4904 ?        Sl   07:58   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+thomas-c    1148  0.0  0.1 326040  6576 ?        Ssl  07:58   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+thomas-c    1155  0.0  0.0 244508  3028 ?        Ssl  07:58   0:00 /usr/libexec/gvfs-goa-volume-monitor
+thomas-c    1159  0.0  0.1 555940  6916 ?        Sl   07:58   0:00 /usr/libexec/goa-daemon
+thomas-c    1178  0.0  0.1 327296  5568 ?        Sl   07:58   0:00 /usr/libexec/goa-identity-service
+thomas-c    1180  0.0  0.0 246608  3704 ?        Ssl  07:58   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+thomas-c    1188  0.0  0.1 325356  4240 ?        Ssl  07:58   0:00 /usr/libexec/gvfs-afc-volume-monitor
+thomas-c    1193  0.0  0.0 244332  3340 ?        Ssl  07:58   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+root        1199  0.0  0.1 260744  5428 ?        Ssl  07:58   0:00 /usr/lib/upower/upowerd
+thomas-c    1219  0.0  0.1 199236  6380 tty2     Sl+  07:58   0:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=u
+thomas-c    1290  0.0  0.0  31244    60 ?        S    07:58   0:00 /usr/bin/VBoxClient --clipboard
+thomas-c    1291  0.0  0.0 163380  2096 ?        Sl   07:58   0:00 /usr/bin/VBoxClient --clipboard
+thomas-c    1302  0.0  0.0  31244    80 ?        S    07:58   0:00 /usr/bin/VBoxClient --seamless
+thomas-c    1303  0.0  0.0 163480  1416 ?        Sl   07:58   0:00 /usr/bin/VBoxClient --seamless
+thomas-c    1307  0.0  0.0  31244    72 ?        S    07:58   0:00 /usr/bin/VBoxClient --draganddrop
+thomas-c    1308  0.1  0.0 163996  1268 ?        Sl   07:58   0:02 /usr/bin/VBoxClient --draganddrop
+thomas-c    1312  0.0  0.0  31244    52 ?        S    07:58   0:00 /usr/bin/VBoxClient --vmsvga
+thomas-c    1313  0.0  0.0 165760  1668 ?        Sl   07:58   0:00 /usr/bin/VBoxClient --vmsvga
+thomas-c    1325  0.0  0.0   6040    36 ?        Ss   07:58   0:00 /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MOD
+thomas-c    1344  0.0  0.1 383464  5636 ?        Ssl  07:58   0:00 /usr/libexec/at-spi-bus-launcher
+thomas-c    1350  0.0  0.0   7248  2952 ?        S    07:58   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/ac
+thomas-c    1357  0.0  0.0  98696  2012 ?        Ssl  07:58   0:00 /usr/libexec/gnome-session-ctl --monitor
+thomas-c    1364  0.0  0.1 495136  6912 ?        Ssl  07:58   0:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubu
+thomas-c    1378  4.2  3.3 3472232 135532 ?      Rsl  07:58   1:28 /usr/bin/gnome-shell
+thomas-c    1404  0.0  0.1 323376  5356 ?        Sl   07:58   0:00 ibus-daemon --panel disable --xim
+thomas-c    1408  0.0  0.1 175188  4992 ?        Sl   07:58   0:00 /usr/libexec/ibus-memconf
+thomas-c    1409  0.0  0.2 283704  8432 ?        Sl   07:58   0:01 /usr/libexec/ibus-extension-gtk3
+thomas-c    1415  0.0  0.2 204552  9008 ?        Sl   07:58   0:00 /usr/libexec/ibus-x11 --kill-daemon
+thomas-c    1418  0.0  0.1 248856  5588 ?        Sl   07:58   0:00 /usr/libexec/ibus-portal
+thomas-c    1427  0.0  0.0 162912  2892 ?        Sl   07:58   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+thomas-c    1431  0.0  0.0 244228  1504 ?        Ssl  07:58   0:00 /usr/libexec/xdg-permission-store
+thomas-c    1436  0.0  0.1 581700  5744 ?        Sl   07:58   0:00 /usr/libexec/gnome-shell-calendar-server
+thomas-c    1444  0.0  0.1 472780  7496 ?        Ssl  07:58   0:00 /usr/libexec/evolution-source-registry
+thomas-c    1453  0.0  0.1 716396  7240 ?        Ssl  07:58   0:00 /usr/libexec/evolution-calendar-factory
+thomas-c    1473  0.0  0.0 156220  3472 ?        Sl   07:58   0:00 /usr/libexec/dconf-service
+thomas-c    1474  0.0  0.1 682044  7040 ?        Ssl  07:58   0:00 /usr/libexec/evolution-addressbook-factory
+thomas-c    1475  0.0  0.0 170896  3492 ?        Ssl  07:58   0:00 /usr/libexec/gvfsd-metadata
+thomas-c    1494  0.0  0.1 2607404 7760 ?        Sl   07:58   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+thomas-c    1502  0.0  0.1 326192  5312 ?        Sl   07:58   0:00 /usr/libexec/gvfsd-trash --spawner :1.4 /org/gtk/gvfs/exec_spaw/0
+thomas-c    1514  0.0  0.1 322516  5180 ?        Ssl  07:58   0:00 /usr/libexec/gsd-a11y-settings
+thomas-c    1516  0.0  0.2 574464  9172 ?        Ssl  07:58   0:00 /usr/libexec/gsd-color
+thomas-c    1517  0.0  0.1 382968  6736 ?        Ssl  07:58   0:00 /usr/libexec/gsd-datetime
+thomas-c    1518  0.0  0.1 322760  5356 ?        Ssl  07:58   0:00 /usr/libexec/gsd-housekeeping
+thomas-c    1521  0.0  0.2 352464  8888 ?        Ssl  07:58   0:00 /usr/libexec/gsd-keyboard
+thomas-c    1522  0.0  0.2 907668 10652 ?        Ssl  07:58   0:00 /usr/libexec/gsd-media-keys
+thomas-c    1523  0.0  0.2 352880  9112 ?        Ssl  07:58   0:00 /usr/libexec/gsd-power
+thomas-c    1527  0.0  0.1 256856  4540 ?        Ssl  07:58   0:00 /usr/libexec/gsd-print-notifications
+thomas-c    1528  0.0  0.0 465732  3092 ?        Ssl  07:58   0:00 /usr/libexec/gsd-rfkill
+thomas-c    1533  0.0  0.0 244140  2804 ?        Ssl  07:58   0:00 /usr/libexec/gsd-screensaver-proxy
+thomas-c    1535  0.0  0.1 477636  5972 ?        Ssl  07:58   0:00 /usr/libexec/gsd-sharing
+thomas-c    1538  0.0  0.1 326676  4072 ?        Ssl  07:58   0:00 /usr/libexec/gsd-smartcard
+thomas-c    1545  0.0  0.1 330384  6224 ?        Ssl  07:58   0:00 /usr/libexec/gsd-sound
+thomas-c    1547  0.0  0.1 396480  5232 ?        Ssl  07:58   0:00 /usr/libexec/gsd-usb-protection
+thomas-c    1548  0.0  0.2 352140  9232 ?        Ssl  07:58   0:00 /usr/libexec/gsd-wacom
+thomas-c    1552  0.0  0.1 326872  5088 ?        Ssl  07:58   0:00 /usr/libexec/gsd-wwan
+thomas-c    1555  0.0  0.2 355984  9492 ?        Ssl  07:58   0:00 /usr/libexec/gsd-xsettings
+thomas-c    1569  0.0  0.2 720400 10748 ?        Sl   07:58   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+thomas-c    1585  0.0  0.0 231800  2444 ?        Sl   07:58   0:00 /usr/libexec/gsd-disk-utility-notify
+thomas-c    1615  0.0  0.1 350820  5316 ?        Sl   07:58   0:00 /usr/libexec/gsd-printer
+colord      1637  0.0  0.2 257548 11176 ?        Ssl  07:58   0:00 /usr/libexec/colord
+thomas-c    1650  0.0  0.1 175180  5120 ?        Sl   07:58   0:00 /usr/libexec/ibus-engine-simple
+thomas-c    1701  0.0  0.0 466164  3312 ?        Ssl  07:58   0:00 /usr/libexec/xdg-document-portal
+root        1775  0.0  0.0      0     0 ?        I    07:58   0:01 [kworker/0:4-events]
+thomas-c    1801  0.0  0.1 471392  6864 ?        Ssl  07:58   0:00 /usr/libexec/xdg-desktop-portal
+thomas-c    1805  0.0  0.1 503736  7752 ?        Ssl  07:58   0:00 /usr/libexec/xdg-desktop-portal-gtk
+thomas-c    1819  0.2  0.3 1006356 15388 ?       Sl   07:58   0:04 /usr/bin/nautilus --gapplication-service
+thomas-c    1840  1.0  1.8 42829160 73884 ?      SLl  07:59   0:22 /usr/share/code/code --unity-launch
+thomas-c    1846  0.0  0.1 204192  7784 ?        S    07:59   0:00 /usr/share/code/code --type=zygote --no-zygote-sandbox
+thomas-c    1847  0.0  0.1 204192  6304 ?        S    07:59   0:00 /usr/share/code/code --type=zygote
+thomas-c    1849  0.0  0.0 204192    68 ?        S    07:59   0:00 /usr/share/code/code --type=zygote
+thomas-c    1884  0.0  0.1 255704  6940 ?        Sl   07:59   0:00 /usr/share/code/code --type=utility --utility-sub-type=network.mo
+thomas-c    1896  1.5  3.5 475196 142700 ?       Sl   07:59   0:30 /usr/share/code/code --type=gpu-process --field-trial-handle=1287
+thomas-c    1900  0.0  0.0 220780  1044 ?        S    07:59   0:00 /usr/share/code/code --type=broker
+thomas-c    1910  6.2  8.3 57239744 333808 ?     Sl   07:59   2:06 /usr/share/code/code --type=renderer --disable-color-correct-rend
+thomas-c    1945  0.7  2.6 38049676 107512 ?     Sl   07:59   0:15 /usr/share/code/code --ms-enable-electron-run-as-node --inspect-p
+thomas-c    1960  0.3  1.4 42330900 56648 ?      Sl   07:59   0:07 /usr/share/code/code --type=renderer --disable-color-correct-rend
+thomas-c    1973  0.0  0.4 504096 16140 ?        Sl   07:59   0:00 update-notifier
+thomas-c    1985  0.1  0.6 38038208 28076 ?      Sl   07:59   0:02 /usr/share/code/code --ms-enable-electron-run-as-node /usr/share/
+thomas-c    2040  0.0  0.5 38036480 22924 ?      Sl   07:59   0:00 /usr/share/code/code --ms-enable-electron-run-as-node /usr/share/
+thomas-c    2070  0.0  0.0 170300  3764 ?        Sl   07:59   0:00 /usr/lib/libreoffice/program/oosplash --writer file:///home/thoma
+thomas-c    2086  0.0  0.0  19516  3128 pts/0    Ss+  07:59   0:00 /bin/bash
+thomas-c    2122  0.6  2.7 1151680 109036 ?      Sl   07:59   0:13 /usr/lib/libreoffice/program/soffice.bin --writer file:///home/th
+thomas-c    2132  0.0  0.2  79776 10868 ?        Sl   07:59   0:00 /home/thomas-c/.config/Code/User/globalStorage/tabnine.tabnine-vs
+thomas-c    2152  0.7  1.1 730080 45416 ?        Sl   07:59   0:14 /home/thomas-c/.vscode/extensions/ms-vscode.cpptools-1.8.4/bin/cp
+thomas-c    2156  0.0  0.5 37985808 23400 ?      Sl   07:59   0:00 /usr/share/code/code --ms-enable-electron-run-as-node /usr/share/
+thomas-c    2225  0.5  0.5  88628 20704 ?        Sl   07:59   0:10 /home/thomas-c/.config/Code/User/globalStorage/tabnine.tabnine-vs
+thomas-c    2227  0.2  2.2 230396 88900 ?        Sl   07:59   0:05 /home/thomas-c/.config/Code/User/globalStorage/tabnine.tabnine-vs
+thomas-c    3954  0.0  0.0  19516  3564 pts/1    Ss+  08:21   0:00 /usr/bin/bash
+thomas-c    3962  0.3  1.2 4808784 48472 ?       Sl   08:21   0:02 /home/thomas-c/.vscode/extensions/ms-vscode.cpptools-1.8.4/bin/cp
+root        4044  0.0  0.0      0     0 ?        I    08:23   0:00 [kworker/u2:2-events_unbound]
+root        4202  0.0  0.0      0     0 ?        I    08:28   0:00 [kworker/u2:0-events_unbound]
+root        4436  0.0  0.0      0     0 ?        I    08:32   0:00 [kworker/u2:3-events_unbound]
+thomas-c    4438  1.5  0.6 824276 25576 ?        Dsl  08:32   0:00 /usr/libexec/gnome-terminal-server
+thomas-c    4446  0.0  0.1  19512  4076 pts/2    Ss   08:32   0:00 bash
+thomas-c   14135  0.0  0.0  20324  3608 pts/2    R+   08:33   0:00 ps -auxw
