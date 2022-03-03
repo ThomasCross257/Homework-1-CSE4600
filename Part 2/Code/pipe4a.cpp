@@ -1,5 +1,5 @@
 //pipe4a.cpp  (data producer)
-// All code is original work of Thomas Cross
+// All additional code is original work of Thomas Cross
 #include <unistd.h>
 #include <stdlib.h>
 #include <stdio.h>
