@@ -1,5 +1,5 @@
 //test_execl.cpp
-// All code is original and written by Thomas Cross
+// All additional code is original and written by Thomas Cross
 #include <unistd.h>
 #include <iostream>
 
